@@ -1,21 +1,110 @@
-<section class="section contact" id="contact">
+<section class="section booking" id="booking">
   <div class="container">
-    <h2>We’re here when you need us.</h2>
-    <p>Madani Specialty Hospital is centrally located in Zaranj to provide 24/7 care for the Nimroz community.</p>
-    <div class="contact-grid">
-      <div class="contact-info">
-        <h3>OUR LOCATION</h3>
-        <p>Main Road, Zaranj City, Nimroz, Afghanistan</p>
-        <h3>WORKING HOURS</h3>
-        <p>Emergency & Trauma: 24/7</p>
-        <p>Outpatient (OPD): 8:00 AM — 8:00 PM</p>
-        <div class="contact-actions">
-          <a href="tel:+93700000000" class="btn btn-primary">DIRECT CALL [+93 700 000 000]</a>
-          <a href="https://wa.me/93700000000" class="btn btn-secondary">WHATSAPP Chat with us</a>
-        </div>
+    <h2>Book Your Appointment</h2>
+    <p>Schedule your visit with our expert medical professionals. Quick and easy online booking.</p>
+
+    <div class="booking-grid">
+      <div class="booking-form-container">
+        <h3>Appointment Details</h3>
+        <form class="booking-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="patient-name">Full Name *</label>
+              <input type="text" id="patient-name" name="patientName" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+              <label for="date">Preferred Date *</label>
+              <input type="date" id="date" name="date" required min="<?php echo date('Y-m-d'); ?>">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="department">Department *</label>
+              <select id="department" name="department" required>
+                <option value="">Select Department</option>
+                <option value="cardiology">Cardiology</option>
+                <option value="neurology">Neurology</option>
+                <option value="orthopedics">Orthopedics</option>
+                <option value="pediatrics">Pediatrics</option>
+                <option value="emergency">Emergency</option>
+                <option value="general">General Medicine</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="doctor">Preferred Doctor</label>
+              <select id="doctor" name="doctor">
+                <option value="">Select Doctor</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="symptoms">Brief Description of Symptoms/Reason for Visit *</label>
+            <textarea id="symptoms" name="symptoms" rows="4" placeholder="Please describe your symptoms or reason for visit..." required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="insurance">Insurance Provider (if applicable)</label>
+            <input type="text" id="insurance" name="insurance" placeholder="Insurance company name">
+          </div>
+
+          <div class="form-check">
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the terms and conditions and privacy policy</label>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Book Appointment</button>
+        </form>
       </div>
-      <div class="contact-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d144.9630576153168!3d-37.81410771975182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d5a32e1b8b0!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1611818220000!5m2!1sen!2sau" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+      <div class="booking-info">
+        <h3>Visit Information</h3>
+        <div class="info-box">
+          <h4>📍 Our Location</h4>
+          <p>Main Road, Zaranj City, Nimroz, Afghanistan</p>
+        </div>
+
+        <div class="info-box">
+          <h4>🕒 Working Hours</h4>
+          <p><strong>Emergency & Trauma:</strong> 24/7</p>
+          <p><strong>Outpatient (OPD):</strong> 8:00 AM — 8:00 PM</p>
+          <p><strong>Appointments:</strong> Mon-Sat 9:00 AM — 5:00 PM</p>
+        </div>
+
+        <div class="info-box">
+          <h4>📞 Contact Us</h4>
+          <p><strong>Phone:</strong> +93 700 000 000</p>
+          <p><strong>Emergency:</strong> +93 700 000 001</p>
+          <p><strong>Email:</strong> info@hospitalname.com</p>
+        </div>
+
+        <div class="info-box">
+          <h4>💡 What to Bring</h4>
+          <ul>
+            <li>Valid ID/Passport</li>
+            <li>Previous medical records</li>
+            <li>Insurance card (if applicable)</li>
+            <li>Current medications list</li>
+          </ul>
+        </div>
+
+        <div class="emergency-notice">
+          <h4>🚨 Emergency Cases</h4>
+          <p>For life-threatening emergencies, please call our emergency line immediately or visit the ER directly.</p>
+          <a href="tel:+93700000001" class="btn btn-secondary">Emergency: +93 700 000 001</a>
+        </div>
       </div>
     </div>
   </div>

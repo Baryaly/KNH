@@ -1,78 +1,826 @@
 <section class="section team" id="team">
   <div class="container">
-    <h2>Meet Our Specialists</h2>
-    <p>Expert medical professionals dedicated to your health.</p>
+    <div class="team-header">
+      <h2>Meet Our Medical Specialists</h2>
+      <p>Our team of highly qualified medical professionals is committed to providing exceptional healthcare services with compassion, expertise, and cutting-edge technology. Each specialist brings years of experience and dedication to patient care.</p>
+      <div class="team-stats">
+        <div class="stat">
+          <span class="stat-number">25+</span>
+          <span class="stat-label">Expert Doctors</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">15+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">50K+</span>
+          <span class="stat-label">Patients Served</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">98%</span>
+          <span class="stat-label">Success Rate</span>
+        </div>
+      </div>
+    </div>
+
     <div class="team-filters">
-      <button class="filter-btn active" data-filter="all">ALL DOCTORS</button>
+      <button class="filter-btn active" data-filter="all">ALL SPECIALISTS</button>
       <button class="filter-btn" data-filter="surgery">SURGERY</button>
       <button class="filter-btn" data-filter="pediatrics">PEDIATRICS</button>
       <button class="filter-btn" data-filter="maternity">MATERNITY</button>
       <button class="filter-btn" data-filter="diagnostics">DIAGNOSTICS</button>
+      <button class="filter-btn" data-filter="cardiology">CARDIOLOGY</button>
+      <button class="filter-btn" data-filter="neurology">NEUROLOGY</button>
+      <button class="filter-btn" data-filter="dermatology">DERMATOLOGY</button>
     </div>
+
     <div class="grid team-grid">
+      <!-- Surgery Specialists -->
       <article class="team-card" data-specialty="surgery">
-        <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Munawar Ahmad" />
-        <h3>Dr. Munawar Ahmad</h3>
-        <p class="specialty">GENERAL SURGEON</p>
-        <p>A leading specialist in advanced laparoscopic and minimally invasive surgery. With over 15 years of experience, he focuses on complex abdominal procedures and emergency trauma management.</p>
-        <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Munawar Ahmad" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Munawar Ahmad</h3>
+          <p class="specialty">GENERAL SURGEON</p>
+          <p class="qualifications">MBBS, FCPS Surgery, Fellowship in Laparoscopic Surgery</p>
+          <p class="experience">15+ Years Experience</p>
+          <p>A leading specialist in advanced laparoscopic and minimally invasive surgery. With over 15 years of experience, he focuses on complex abdominal procedures and emergency trauma management. Dr. Ahmad has performed over 5,000 successful surgeries with a 99% success rate.</p>
+          <div class="team-card-features">
+            <span class="feature">Laparoscopic Surgery</span>
+            <span class="feature">Emergency Trauma</span>
+            <span class="feature">Abdominal Procedures</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
       </article>
+
       <article class="team-card" data-specialty="pediatrics">
-        <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Samim Noori" />
-        <h3>Dr. Samim Noori</h3>
-        <p class="specialty">PEDIATRIC SPECIALIST</p>
-        <p>Expert in neonatal intensive care. Dr. Samim provides comprehensive medical care for infants, specializing in respiratory infections and nutritional guidance for long-term child wellness.</p>
-        <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Samim Noori" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Samim Noori</h3>
+          <p class="specialty">PEDIATRIC SPECIALIST</p>
+          <p class="qualifications">MBBS, DCH, FCPS Pediatrics, Fellowship in Neonatology</p>
+          <p class="experience">12+ Years Experience</p>
+          <p>Expert in neonatal intensive care and pediatric emergency medicine. Dr. Samim provides comprehensive medical care for infants and children, specializing in respiratory infections, nutritional guidance, and developmental pediatrics for long-term child wellness.</p>
+          <div class="team-card-features">
+            <span class="feature">Neonatal Care</span>
+            <span class="feature">Emergency Pediatrics</span>
+            <span class="feature">Developmental Medicine</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
       </article>
+
       <article class="team-card" data-specialty="maternity">
-        <img src="https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Malalai Herawi" />
-        <h3>Dr. Malalai Herawi</h3>
-        <p class="specialty">GYNECOLOGIST</p>
-        <p>Specializing in high-risk obstetrics and maternal-fetal medicine. She is dedicated to providing a safe environment for mothers, focusing on painless delivery and advanced screenings.</p>
-        <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Malalai Herawi" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Malalai Herawi</h3>
+          <p class="specialty">GYNECOLOGIST & OBSTETRICIAN</p>
+          <p class="qualifications">MBBS, FCPS Gynecology, MRCOG, Fellowship in Maternal-Fetal Medicine</p>
+          <p class="experience">14+ Years Experience</p>
+          <p>Specializing in high-risk obstetrics and maternal-fetal medicine. She is dedicated to providing a safe environment for mothers, focusing on painless delivery techniques, advanced prenatal screenings, and comprehensive women's health care.</p>
+          <div class="team-card-features">
+            <span class="feature">High-Risk Obstetrics</span>
+            <span class="feature">Painless Delivery</span>
+            <span class="feature">Prenatal Care</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
       </article>
+
       <article class="team-card" data-specialty="surgery">
-        <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Ahmad Fayez" />
-        <h3>Dr. Ahmad Fayez</h3>
-        <p class="specialty">ORTHOPEDIC SURGEON</p>
-        <p>Specialist in bone trauma and joint replacement. He utilizes advanced surgical techniques for fracture repair, ensuring patients regain full mobility with rapid recovery timelines.</p>
-        <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Ahmad Fayez" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Ahmad Fayez</h3>
+          <p class="specialty">ORTHOPEDIC SURGEON</p>
+          <p class="qualifications">MBBS, FCPS Orthopedics, Fellowship in Joint Replacement Surgery</p>
+          <p class="experience">13+ Years Experience</p>
+          <p>Specialist in bone trauma, joint replacement, and sports medicine. He utilizes advanced surgical techniques for fracture repair, ensuring patients regain full mobility with rapid recovery timelines. Expert in minimally invasive orthopedic procedures.</p>
+          <div class="team-card-features">
+            <span class="feature">Joint Replacement</span>
+            <span class="feature">Sports Medicine</span>
+            <span class="feature">Trauma Surgery</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
       </article>
+
       <article class="team-card" data-specialty="diagnostics">
-        <img src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Walid Ahmad" />
-        <h3>Dr. Walid Ahmad</h3>
-        <p class="specialty">RADIOLOGIST</p>
-        <p>Highly skilled in diagnostic imaging. He leads our 4D Ultrasound and CT scan department, providing precise diagnostic blueprints essential for successful medical treatments.</p>
-        <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Walid Ahmad" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Walid Ahmad</h3>
+          <p class="specialty">RADIOLOGIST & IMAGING SPECIALIST</p>
+          <p class="qualifications">MBBS, FCPS Radiology, Fellowship in Interventional Radiology</p>
+          <p class="experience">11+ Years Experience</p>
+          <p>Highly skilled in diagnostic imaging and interventional procedures. He leads our advanced imaging department featuring 4D Ultrasound, CT scan, MRI, and PET-CT technology, providing precise diagnostic blueprints essential for successful medical treatments.</p>
+          <div class="team-card-features">
+            <span class="feature">4D Ultrasound</span>
+            <span class="feature">CT/MRI Imaging</span>
+            <span class="feature">Interventional Radiology</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
       </article>
+
       <article class="team-card" data-specialty="pediatrics">
-        <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Karima Karimi" />
-        <h3>Dr. Karima Karimi</h3>
-        <p class="specialty">PEDIATRICIAN</p>
-        <p>Focused on preventive pediatric medicine and immunization. She is known for her dedicated approach to managing chronic childhood conditions like asthma and allergies.</p>
-        <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Karima Karimi" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Karima Karimi</h3>
+          <p class="specialty">PEDIATRICIAN</p>
+          <p class="qualifications">MBBS, DCH, FCPS Pediatrics, Fellowship in Pediatric Allergy</p>
+          <p class="experience">10+ Years Experience</p>
+          <p>Focused on preventive pediatric medicine, immunization, and childhood allergies. She is known for her dedicated approach to managing chronic childhood conditions like asthma, allergies, and developmental disorders. Specializes in pediatric nutrition and growth monitoring.</p>
+          <div class="team-card-features">
+            <span class="feature">Pediatric Allergy</span>
+            <span class="feature">Immunization</span>
+            <span class="feature">Growth Monitoring</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
       </article>
+
+      <article class="team-card" data-specialty="cardiology">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1622902046580-2b47f47f0871?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Rahimi" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Rahimi</h3>
+          <p class="specialty">CARDIOLOGIST</p>
+          <p class="qualifications">MBBS, FCPS Cardiology, Fellowship in Interventional Cardiology</p>
+          <p class="experience">16+ Years Experience</p>
+          <p>Expert in non-invasive cardiology and preventive heart care. He utilizes advanced ECG, Echocardiography, and stress testing technology to diagnose and manage coronary artery disease, heart failure, and arrhythmias. Specializes in cardiac rehabilitation programs.</p>
+          <div class="team-card-features">
+            <span class="feature">Interventional Cardiology</span>
+            <span class="feature">Heart Failure Management</span>
+            <span class="feature">Cardiac Rehabilitation</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+
+      <article class="team-card" data-specialty="neurology">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Fatima Zahra" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Fatima Zahra</h3>
+          <p class="specialty">NEUROLOGIST</p>
+          <p class="qualifications">MBBS, FCPS Neurology, Fellowship in Stroke Medicine</p>
+          <p class="experience">12+ Years Experience</p>
+          <p>Specialist in neurological disorders and stroke management. Dr. Zahra provides comprehensive care for epilepsy, Parkinson's disease, multiple sclerosis, and acute stroke interventions. Expert in neurophysiological testing and rehabilitation.</p>
+          <div class="team-card-features">
+            <span class="feature">Stroke Management</span>
+            <span class="feature">Epilepsy Care</span>
+            <span class="feature">Neurorehabilitation</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+
+      <article class="team-card" data-specialty="dermatology">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Nadia Hassan" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Nadia Hassan</h3>
+          <p class="specialty">DERMATOLOGIST</p>
+          <p class="qualifications">MBBS, FCPS Dermatology, Fellowship in Cosmetic Dermatology</p>
+          <p class="experience">9+ Years Experience</p>
+          <p>Expert in medical and cosmetic dermatology. Specializes in acne treatment, skin cancer screening, cosmetic procedures, and laser therapy. Provides comprehensive care for all skin conditions including psoriasis, eczema, and hair disorders.</p>
+          <div class="team-card-features">
+            <span class="feature">Cosmetic Dermatology</span>
+            <span class="feature">Skin Cancer Screening</span>
+            <span class="feature">Laser Therapy</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+
       <article class="team-card" data-specialty="surgery">
-        <img src="https://images.unsplash.com/photo-1625498542602-6bfb30f39b3f?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Khalid Noori" />
-        <h3>Dr. Khalid Noori</h3>
-        <p class="specialty">INTERNAL MEDICINE</p>
-        <p>Specialist in managing complex adult illnesses, including diabetes and hypertension. He employs a holistic diagnostic approach to treat multi-system chronic diseases.</p>
-        <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1625498542602-6bfb30f39b3f?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Khalid Noori" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Khalid Noori</h3>
+          <p class="specialty">INTERNAL MEDICINE SPECIALIST</p>
+          <p class="qualifications">MBBS, FCPS Medicine, Fellowship in Endocrinology</p>
+          <p class="experience">18+ Years Experience</p>
+          <p>Specialist in managing complex adult illnesses, including diabetes, hypertension, and endocrine disorders. He employs a holistic diagnostic approach to treat multi-system chronic diseases and provides comprehensive preventive care programs.</p>
+          <div class="team-card-features">
+            <span class="feature">Diabetes Management</span>
+            <span class="feature">Endocrinology</span>
+            <span class="feature">Preventive Medicine</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
       </article>
+
       <article class="team-card" data-specialty="diagnostics">
-        <img src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Sayed Sadat" />
-        <h3>Dr. Sayed Sadat</h3>
-        <p class="specialty">PATHOLOGIST</p>
-        <p>Chief of Laboratory services, specializing in clinical pathology. He ensures the highest standards of accuracy in blood testing, the backbone of our hospital's reliability.</p>
-        <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Sayed Sadat" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Sayed Sadat</h3>
+          <p class="specialty">PATHOLOGIST & LABORATORY DIRECTOR</p>
+          <p class="qualifications">MBBS, FCPS Pathology, Fellowship in Clinical Pathology</p>
+          <p class="experience">14+ Years Experience</p>
+          <p>Chief of Laboratory services, specializing in clinical pathology and laboratory medicine. He ensures the highest standards of accuracy in blood testing, microbiology, and histopathology - the backbone of our hospital's diagnostic reliability.</p>
+          <div class="team-card-features">
+            <span class="feature">Clinical Pathology</span>
+            <span class="feature">Laboratory Medicine</span>
+            <span class="feature">Quality Assurance</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
       </article>
+
+      <article class="team-card" data-specialty="maternity">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1594824804732-ca8db723f8fa?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Ayesha Bibi" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Ayesha Bibi</h3>
+          <p class="specialty">MATERNITY & FERTILITY SPECIALIST</p>
+          <p class="qualifications">MBBS, FCPS Gynecology, Fellowship in Reproductive Medicine</p>
+          <p class="experience">11+ Years Experience</p>
+          <p>Specialist in reproductive medicine and infertility treatment. Provides comprehensive fertility evaluations, IVF procedures, and advanced maternity care. Expert in managing high-risk pregnancies and reproductive endocrinology.</p>
+          <div class="team-card-features">
+            <span class="feature">IVF Specialist</span>
+            <span class="feature">Reproductive Medicine</span>
+            <span class="feature">Fertility Treatment</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+
+      <article class="team-card" data-specialty="neurology">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Omar Farooq" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Omar Farooq</h3>
+          <p class="specialty">NEUROSURGEON</p>
+          <p class="qualifications">MBBS, FCPS Neurosurgery, Fellowship in Spine Surgery</p>
+          <p class="experience">15+ Years Experience</p>
+          <p>Expert in complex brain and spine surgery. Specializes in minimally invasive neurosurgery, brain tumor removal, spinal decompression, and neurotrauma. Utilizes advanced surgical techniques including stereotactic surgery and intraoperative imaging.</p>
+          <div class="team-card-features">
+            <span class="feature">Brain Surgery</span>
+            <span class="feature">Spine Surgery</span>
+            <span class="feature">Neurotrauma</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+
+      <article class="team-card" data-specialty="cardiology">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1614608682850-e0d6ed316d47?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Hassan Ali" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Hassan Ali</h3>
+          <p class="specialty">INTERVENTIONAL CARDIOLOGIST</p>
+          <p class="qualifications">MBBS, FCPS Cardiology, Fellowship in Interventional Cardiology</p>
+          <p class="experience">13+ Years Experience</p>
+          <p>Specialist in cardiac catheterization and angioplasty procedures. Performs coronary angiograms, stent placements, and structural heart interventions. Expert in managing acute myocardial infarction and complex coronary artery disease.</p>
+          <div class="team-card-features">
+            <span class="feature">Angioplasty</span>
+            <span class="feature">Stent Placement</span>
+            <span class="feature">Heart Interventions</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+
+      <article class="team-card" data-specialty="dermatology">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1594824804732-ca8db723f8fa?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Mariam Khan" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Mariam Khan</h3>
+          <p class="specialty">COSMETIC DERMATOLOGIST</p>
+          <p class="qualifications">MBBS, FCPS Dermatology, Diploma in Aesthetic Medicine</p>
+          <p class="experience">8+ Years Experience</p>
+          <p>Expert in cosmetic dermatology and aesthetic procedures. Specializes in Botox, fillers, chemical peels, laser hair removal, and skin rejuvenation treatments. Provides personalized treatment plans for anti-aging and skin enhancement.</p>
+          <div class="team-card-features">
+            <span class="feature">Botox & Fillers</span>
+            <span class="feature">Laser Treatments</span>
+            <span class="feature">Skin Rejuvenation</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+
+      <article class="team-card" data-specialty="pediatrics">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Zahra Ahmed" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Zahra Ahmed</h3>
+          <p class="specialty">PEDIATRIC CARDIOLOGIST</p>
+          <p class="qualifications">MBBS, FCPS Pediatrics, Fellowship in Pediatric Cardiology</p>
+          <p class="experience">10+ Years Experience</p>
+          <p>Specialist in congenital and acquired heart diseases in children. Provides comprehensive cardiac care for infants and children, including echocardiography, cardiac catheterization, and management of pediatric arrhythmias and heart failure.</p>
+          <div class="team-card-features">
+            <span class="feature">Pediatric Cardiology</span>
+            <span class="feature">Congenital Heart Disease</span>
+            <span class="feature">Cardiac Catheterization</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+
       <article class="team-card" data-specialty="diagnostics">
-        <img src="https://images.unsplash.com/photo-1622902046580-2b47f47f0871?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Rahimi" />
-        <h3>Dr. Rahimi</h3>
-        <p class="specialty">CARDIOLOGIST</p>
-        <p>Expert in non-invasive cardiology and preventive heart care. He utilizes advanced ECG and Echo technology to diagnose and manage coronary artery disease and heart failure.</p>
-        <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Imran Shah" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Imran Shah</h3>
+          <p class="specialty">NUCLEAR MEDICINE SPECIALIST</p>
+          <p class="qualifications">MBBS, FCPS Nuclear Medicine, Fellowship in PET-CT Imaging</p>
+          <p class="experience">12+ Years Experience</p>
+          <p>Expert in nuclear medicine and molecular imaging. Specializes in PET-CT scans, radionuclide therapy, and molecular diagnostics. Provides advanced imaging for oncology, cardiology, and neurological disorders using radioactive tracers.</p>
+          <div class="team-card-features">
+            <span class="feature">PET-CT Imaging</span>
+            <span class="feature">Radionuclide Therapy</span>
+            <span class="feature">Molecular Diagnostics</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
       </article>
+
+      <article class="team-card" data-specialty="surgery">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1614608682850-e0d6ed316d47?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Basir Ahmad" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Basir Ahmad</h3>
+          <p class="specialty">PLASTIC & RECONSTRUCTIVE SURGEON</p>
+          <p class="qualifications">MBBS, FCPS Plastic Surgery, Fellowship in Microsurgery</p>
+          <p class="experience">14+ Years Experience</p>
+          <p>Specialist in plastic and reconstructive surgery. Expert in cosmetic procedures, reconstructive surgery after trauma or cancer, microsurgery, and hand surgery. Provides comprehensive aesthetic and functional restoration services.</p>
+          <div class="team-card-features">
+            <span class="feature">Cosmetic Surgery</span>
+            <span class="feature">Reconstructive Surgery</span>
+            <span class="feature">Microsurgery</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+
+      <article class="team-card" data-specialty="maternity">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Samira Hassan" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Samira Hassan</h3>
+          <p class="specialty">PERINATOLOGIST</p>
+          <p class="qualifications">MBBS, FCPS Gynecology, Fellowship in Maternal-Fetal Medicine</p>
+          <p class="experience">16+ Years Experience</p>
+          <p>Expert in high-risk pregnancy management and fetal medicine. Specializes in prenatal diagnosis, fetal therapy, and management of maternal medical complications. Provides comprehensive care for complex pregnancies and fetal abnormalities.</p>
+          <div class="team-card-features">
+            <span class="feature">High-Risk Pregnancy</span>
+            <span class="feature">Fetal Medicine</span>
+            <span class="feature">Prenatal Diagnosis</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+
+      <article class="team-card" data-specialty="neurology">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Tariq Mahmood" />
+          <div class="team-card-overlay">
+            <div class="team-link-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Tariq Mahmood</h3>
+          <p class="specialty">PSYCHIATRIST</p>
+          <p class="qualifications">MBBS, FCPS Psychiatry, Fellowship in Child Psychiatry</p>
+          <p class="experience">13+ Years Experience</p>
+          <p>Specialist in mental health and behavioral medicine. Provides comprehensive psychiatric care including depression, anxiety disorders, PTSD, and child psychiatry. Expert in psychotherapy, medication management, and cognitive behavioral therapy.</p>
+          <div class="team-card-features">
+            <span class="feature">Mental Health</span>
+            <span class="feature">Child Psychiatry</span>
+            <span class="feature">Psychotherapy</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+
+      <article class="team-card" data-specialty="cardiology">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1625498542602-6bfb30f39b3f?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Yasmeen Akhtar" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Yasmeen Akhtar</h3>
+          <p class="specialty">CARDIAC ELECTROPHYSIOLOGIST</p>
+          <p class="qualifications">MBBS, FCPS Cardiology, Fellowship in Cardiac Electrophysiology</p>
+          <p class="experience">11+ Years Experience</p>
+          <p>Expert in cardiac rhythm disorders and electrophysiology. Specializes in pacemaker implantation, defibrillator therapy, catheter ablation for arrhythmias, and management of complex heart rhythm disorders.</p>
+          <div class="team-card-features">
+            <span class="feature">Arrhythmia Management</span>
+            <span class="feature">Pacemaker Implantation</span>
+            <span class="feature">Catheter Ablation</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+
+      <article class="team-card" data-specialty="dermatology">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Farhana Khan" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Farhana Khan</h3>
+          <p class="specialty">DERMATOPATHOLOGIST</p>
+          <p class="qualifications">MBBS, FCPS Dermatology, Fellowship in Dermatopathology</p>
+          <p class="experience">9+ Years Experience</p>
+          <p>Specialist in skin pathology and microscopic diagnosis of skin diseases. Expert in diagnosing skin cancers, inflammatory skin conditions, and complex dermatological disorders through histopathological examination and molecular testing.</p>
+          <div class="team-card-features">
+            <span class="feature">Skin Pathology</span>
+            <span class="feature">Skin Cancer Diagnosis</span>
+            <span class="feature">Molecular Testing</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+
+      <article class="team-card" data-specialty="diagnostics">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Naveed Ahmed" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Naveed Ahmed</h3>
+          <p class="specialty">MICROBIOLOGIST & INFECTIOUS DISEASE SPECIALIST</p>
+          <p class="qualifications">MBBS, FCPS Microbiology, Fellowship in Infectious Diseases</p>
+          <p class="experience">12+ Years Experience</p>
+          <p>Expert in clinical microbiology and infectious disease management. Specializes in diagnosis and treatment of complex infections, antibiotic stewardship, and infection prevention. Leads our microbiology laboratory and infectious disease consultation service.</p>
+          <div class="team-card-features">
+            <span class="feature">Infectious Diseases</span>
+            <span class="feature">Clinical Microbiology</span>
+            <span class="feature">Antibiotic Stewardship</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+
+      <article class="team-card" data-specialty="surgery">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Asma Bibi" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Asma Bibi</h3>
+          <p class="specialty">UROLOGIST</p>
+          <p class="qualifications">MBBS, FCPS Urology, Fellowship in Endourology</p>
+          <p class="experience">13+ Years Experience</p>
+          <p>Specialist in urological disorders and minimally invasive urology. Expert in kidney stone treatment, prostate diseases, urinary tract infections, and urological oncology. Performs advanced endoscopic and laparoscopic urological procedures.</p>
+          <div class="team-card-features">
+            <span class="feature">Endourology</span>
+            <span class="feature">Kidney Stone Treatment</span>
+            <span class="feature">Urological Oncology</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+
+      <article class="team-card" data-specialty="pediatrics">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Rashid Khan" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Rashid Khan</h3>
+          <p class="specialty">PEDIATRIC SURGEON</p>
+          <p class="qualifications">MBBS, FCPS Pediatric Surgery, Fellowship in Neonatal Surgery</p>
+          <p class="experience">15+ Years Experience</p>
+          <p>Expert in pediatric surgical procedures and neonatal surgery. Specializes in congenital anomalies, pediatric oncology surgery, minimally invasive pediatric procedures, and emergency pediatric surgery. Provides comprehensive surgical care for infants and children.</p>
+          <div class="team-card-features">
+            <span class="feature">Neonatal Surgery</span>
+            <span class="feature">Pediatric Oncology</span>
+            <span class="feature">Minimally Invasive Surgery</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+
+      <article class="team-card" data-specialty="maternity">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Nabila Ahmed" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Nabila Ahmed</h3>
+          <p class="specialty">MIDWIFE & MATERNITY COORDINATOR</p>
+          <p class="qualifications">BSc Nursing, MSc Midwifery, Certified Lactation Consultant</p>
+          <p class="experience">20+ Years Experience</p>
+          <p>Senior midwife and maternity care coordinator. Expert in natural childbirth, lactation support, postpartum care, and newborn care. Provides comprehensive maternity education, birth planning, and family-centered maternity care services.</p>
+          <div class="team-card-features">
+            <span class="feature">Natural Childbirth</span>
+            <span class="feature">Lactation Support</span>
+            <span class="feature">Postpartum Care</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+
+      <article class="team-card" data-specialty="neurology">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Ahmed Hassan" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Ahmed Hassan</h3>
+          <p class="specialty">NEUROPHYSIOLOGIST</p>
+          <p class="qualifications">MBBS, FCPS Neurology, Fellowship in Clinical Neurophysiology</p>
+          <p class="experience">14+ Years Experience</p>
+          <p>Specialist in neurophysiological testing and neuromuscular disorders. Expert in EEG, EMG, nerve conduction studies, evoked potentials, and intraoperative monitoring. Provides comprehensive evaluation of neurological function and neuromuscular diseases.</p>
+          <div class="team-card-features">
+            <span class="feature">EEG/EMG Testing</span>
+            <span class="feature">Neuromuscular Disorders</span>
+            <span class="feature">Intraoperative Monitoring</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+
+      <article class="team-card" data-specialty="cardiology">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Sara Khan" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Sara Khan</h3>
+          <p class="specialty">CARDIAC REHABILITATION SPECIALIST</p>
+          <p class="qualifications">MBBS, FCPS Cardiology, MSc Cardiac Rehabilitation</p>
+          <p class="experience">10+ Years Experience</p>
+          <p>Expert in cardiac rehabilitation and preventive cardiology. Develops personalized rehabilitation programs for post-cardiac surgery patients, heart attack survivors, and those with chronic heart conditions. Focuses on lifestyle modification, exercise therapy, and risk factor management.</p>
+          <div class="team-card-features">
+            <span class="feature">Cardiac Rehabilitation</span>
+            <span class="feature">Preventive Cardiology</span>
+            <span class="feature">Lifestyle Modification</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+
+      <article class="team-card" data-specialty="dermatology">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Kamran Ali" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Kamran Ali</h3>
+          <p class="specialty">HAIR TRANSPLANT SURGEON</p>
+          <p class="qualifications">MBBS, FCPS Dermatology, Fellowship in Hair Transplant Surgery</p>
+          <p class="experience">11+ Years Experience</p>
+          <p>Specialist in hair restoration and transplant surgery. Expert in FUE and FUT techniques, scalp micropigmentation, and medical hair loss treatment. Provides comprehensive solutions for male and female pattern baldness, alopecia, and hair thinning conditions.</p>
+          <div class="team-card-features">
+            <span class="feature">FUE/FUT Surgery</span>
+            <span class="feature">Hair Loss Treatment</span>
+            <span class="feature">Scalp Micropigmentation</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+
+      <article class="team-card" data-specialty="diagnostics">
+        <div class="team-card-image">
+          <img src="https://images.unsplash.com/photo-1614608682850-e0d6ed316d47?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Fatima Noor" />
+          <div class="team-card-overlay">
+            <div class="team-card-social">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-content">
+          <h3>Dr. Fatima Noor</h3>
+          <p class="specialty">ENDOCRINOLOGIST</p>
+          <p class="qualifications">MBBS, FCPS Endocrinology, Fellowship in Diabetes Management</p>
+          <p class="experience">12+ Years Experience</p>
+          <p>Expert in endocrine disorders and diabetes management. Specializes in thyroid disorders, diabetes mellitus, metabolic syndrome, and hormonal imbalances. Provides comprehensive endocrine care including insulin pump therapy and continuous glucose monitoring.</p>
+          <div class="team-card-features">
+            <span class="feature">Diabetes Management</span>
+            <span class="feature">Thyroid Disorders</span>
+            <span class="feature">Hormonal Therapy</span>
+          </div>
+          <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+        </div>
+      </article>
+    </div>
+
+    <div class="team-cta-section">
+      <h3>Ready to Meet Our Specialists?</h3>
+      <p>Book an appointment with any of our expert doctors and experience world-class healthcare.</p>
+      <a href="#booking" class="btn btn-primary btn-large">BOOK APPOINTMENT NOW</a>
     </div>
   </div>
 </section>

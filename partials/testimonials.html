@@ -1,44 +1,465 @@
 <section class="section testimonials" id="testimonials">
   <div class="container">
-    <h2>PATIENT STORIES</h2>
-    <p>Trusted by our community.</p>
-    <div class="grid testimonials-grid">
-      <article class="testimonial-card">
-        <div class="testimonial-stars">★★★★★</div>
-        <p>"The care my son received was exceptional. Dr. Munawar and the staff made us feel like family."</p>
-        <div class="testimonial-author">
-          <span class="author-initial">A</span>
-          <div>
-            <strong>Ahmad Zia</strong>
-            <span>PEDIATRIC SURGERY • ZARANJ</span>
+    <div class="testimonials-header">
+      <h2>Patient Success Stories</h2>
+      <p>Real experiences from our valued patients who trusted Hospital Name with their healthcare needs. These stories reflect our commitment to excellence, compassion, and life-changing medical care.</p>
+      <div class="testimonials-stats">
+        <div class="stat">
+          <span class="stat-number">4.9/5</span>
+          <span class="stat-label">Average Rating</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">500+</span>
+          <span class="stat-label">Reviews</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">98%</span>
+          <span class="stat-label">Recommend Us</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">24/7</span>
+          <span class="stat-label">Patient Support</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonials-filters">
+      <button class="filter-btn active" data-filter="all">ALL REVIEWS</button>
+      <button class="filter-btn" data-filter="surgery">SURGERY</button>
+      <button class="filter-btn" data-filter="maternity">MATERNITY</button>
+      <button class="filter-btn" data-filter="pediatrics">PEDIATRICS</button>
+      <button class="filter-btn" data-filter="emergency">EMERGENCY</button>
+      <button class="filter-btn" data-filter="cardiology">CARDIOLOGY</button>
+    </div>
+
+    <div class="testimonials-grid">
+      <!-- Surgery Testimonials -->
+      <article class="testimonial-card" data-category="surgery">
+        <div class="testimonial-image">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150&h=150" alt="Ahmad Zia" />
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-stars">★★★★★</div>
+          <h4>Life-Saving Pediatric Surgery</h4>
+          <p>"My child received exceptional care at Hospital Name. The medical team was professional, compassionate, and provided outstanding treatment. From diagnosis to recovery, we felt supported every step of the way. The hospital's facilities are modern and the staff is truly dedicated to patient care."</p>
+          <div class="testimonial-meta">
+            <div class="testimonial-author">
+              <strong>Ahmad Zia</strong>
+              <span>Father of Young Patient</span>
+            </div>
+            <div class="testimonial-service">
+              <span>PEDIATRIC CARDIAC SURGERY</span>
+              <span>Zaranj, Nimroz Province</span>
+            </div>
           </div>
+          <div class="testimonial-date">March 15, 2024</div>
         </div>
       </article>
-      <article class="testimonial-card">
-        <div class="testimonial-stars">★★★★★</div>
-        <p>"I had a complicated delivery, but the team was professional. The private rooms are clean and the doctors are kind."</p>
-        <div class="testimonial-author">
-          <span class="author-initial">F</span>
-          <div>
-            <strong>Fatima S.</strong>
-            <span>MATERNITY CARE • CHAKHANSUR</span>
+
+      <article class="testimonial-card" data-category="maternity">
+        <div class="testimonial-image">
+          <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?auto=format&fit=crop&q=80&w=150&h=150" alt="Fatima Sultana" />
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-stars">★★★★★</div>
+          <h4>Beautiful Birth Experience</h4>
+          <p>"As a first-time mother, I was nervous about giving birth, especially since my pregnancy was considered high-risk due to gestational diabetes. Dr. Malalai Herawi and the maternity team provided exceptional care throughout my pregnancy. They monitored my condition closely and created a personalized birth plan. The delivery room was clean, modern, and equipped with the latest technology. The staff was incredibly supportive, and I had a natural birth with minimal interventions. My baby girl was born healthy, and the postpartum care was outstanding. The lactation consultants and newborn care specialists helped me establish breastfeeding successfully."</p>
+          <div class="testimonial-meta">
+            <div class="testimonial-author">
+              <strong>Fatima Sultana</strong>
+              <span>New Mother</span>
+            </div>
+            <div class="testimonial-service">
+              <span>HIGH-RISK MATERNITY CARE</span>
+              <span>Chakhansur, Nimroz Province</span>
+            </div>
           </div>
+          <div class="testimonial-date">February 28, 2024</div>
         </div>
       </article>
-      <article class="testimonial-card">
-        <div class="testimonial-stars">★★★★★</div>
-        <p>"I visited for an emergency surgery. Everything from lab tests to the operation was fast and modern."</p>
-        <div class="testimonial-author">
-          <span class="author-initial">M</span>
-          <div>
-            <strong>Mohammad Nabi</strong>
-            <span>GENERAL SURGERY • NIMROZ</span>
+
+      <article class="testimonial-card" data-category="emergency">
+        <div class="testimonial-image">
+          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=150&h=150" alt="Mohammad Nabi" />
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-stars">★★★★★</div>
+          <h4>Emergency Care Excellence</h4>
+          <p>"I was involved in a serious car accident and rushed to Hospital Name with multiple injuries including a ruptured spleen and internal bleeding. The emergency team sprang into action immediately - within minutes I was in surgery. The surgical team performed emergency splenectomy and repaired other internal injuries. The entire process, from ER admission to discharge, was incredibly efficient. The nursing staff provided round-the-clock care, and the follow-up appointments were thorough. The hospital's emergency response time and surgical expertise undoubtedly saved my life. I am forever grateful to the entire team."</p>
+          <div class="testimonial-meta">
+            <div class="testimonial-author">
+              <strong>Mohammad Nabi</strong>
+              <span>Trauma Survivor</span>
+            </div>
+            <div class="testimonial-service">
+              <span>EMERGENCY TRAUMA SURGERY</span>
+              <span>City Name</span>
+            </div>
           </div>
+          <div class="testimonial-date">January 20, 2024</div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" data-category="cardiology">
+        <div class="testimonial-image">
+          <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150&h=150" alt="Zahra Mohammadi" />
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-stars">★★★★★</div>
+          <h4>Heart Health Restored</h4>
+          <p>"I suffered a heart attack last year and was terrified about my future. Dr. Rahimi performed an emergency angioplasty and placed two stents to restore blood flow to my heart. His expertise and the hospital's advanced cardiac catheterization lab saved my life. The cardiac rehabilitation program was comprehensive, including dietary counseling, exercise therapy, and stress management. Six months later, I feel better than I have in years. The follow-up care has been exceptional, with regular check-ups and continuous monitoring. Dr. Rahimi and his team gave me a new lease on life."</p>
+          <div class="testimonial-meta">
+            <div class="testimonial-author">
+              <strong>Zahra Mohammadi</strong>
+              <span>Heart Patient</span>
+            </div>
+            <div class="testimonial-service">
+              <span>INTERVENTIONAL CARDIOLOGY</span>
+              <span>Kandahar City</span>
+            </div>
+          </div>
+          <div class="testimonial-date">December 10, 2023</div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" data-category="pediatrics">
+        <div class="testimonial-image">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150&h=150" alt="Hassan Ali" />
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-stars">★★★★★</div>
+          <h4>Expert Pediatric Care</h4>
+          <p>"My daughter was born prematurely at 28 weeks and spent two months in the NICU. Dr. Samim Noori and the neonatal team provided round-the-clock specialized care. They managed her respiratory issues, monitored her development, and ensured she received proper nutrition. The NICU facilities were state-of-the-art, and the staff was incredibly compassionate. Today, my daughter is a healthy 2-year-old with no developmental delays. The follow-up care and developmental check-ups have been thorough. We are eternally grateful to Dr. Noori and the entire pediatric team for giving our daughter the best possible start in life."</p>
+          <div class="testimonial-meta">
+            <div class="testimonial-author">
+              <strong>Hassan Ali</strong>
+              <span>Father of Premature Baby</span>
+            </div>
+            <div class="testimonial-service">
+              <span>NEONATAL INTENSIVE CARE</span>
+              <span>Herat City</span>
+            </div>
+          </div>
+          <div class="testimonial-date">November 5, 2023</div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" data-category="surgery">
+        <div class="testimonial-image">
+          <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=150&h=150" alt="Maryam Karimi" />
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-stars">★★★★★</div>
+          <h4>Orthopedic Excellence</h4>
+          <p>"I suffered a complex fracture in my hip after a fall. The orthopedic team performed reconstructive surgery using advanced techniques. The pre-operative planning was detailed, and the surgery was successful. The pain management was excellent, and physical therapy began immediately. Six months post-surgery, I have regained full mobility and can walk without assistance. The hospital's rehabilitation facilities and the therapy team's expertise were outstanding. The comprehensive care approach made all the difference in my recovery. I highly recommend Hospital Name for orthopedic care."</p>
+          <div class="testimonial-meta">
+            <div class="testimonial-author">
+              <strong>Maryam Karimi</strong>
+              <span>Hip Fracture Patient</span>
+            </div>
+            <div class="testimonial-service">
+              <span>ORTHOPEDIC SURGERY</span>
+              <span>Kabul City</span>
+            </div>
+          </div>
+          <div class="testimonial-date">October 18, 2023</div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" data-category="maternity">
+        <div class="testimonial-image">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=150&h=150" alt="Amina Hassan" />
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-stars">★★★★★</div>
+          <h4>IVF Success Story</h4>
+          <p>"After years of trying to conceive, we were devastated by infertility. The fertility team at Hospital Name gave us hope. They conducted thorough testing and provided treatment options. We underwent fertility treatment, and achieved successful pregnancy! The entire process was supportive and transparent. The medical team provided excellent care during the pregnancy. Our beautiful child is now healthy. The team made our dream of parenthood come true."</p>
+          <div class="testimonial-meta">
+            <div class="testimonial-author">
+              <strong>Amina Hassan</strong>
+              <span>IVF Patient</span>
+            </div>
+            <div class="testimonial-service">
+              <span>INFERTILITY & IVF TREATMENT</span>
+              <span>Mazar-e-Sharif</span>
+            </div>
+          </div>
+          <div class="testimonial-date">September 22, 2023</div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" data-category="emergency">
+        <div class="testimonial-image">
+          <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=150&h=150" alt="Abdul Rahman" />
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-stars">★★★★★</div>
+          <h4>Stroke Intervention Success</h4>
+          <p>"I experienced sudden symptoms of a medical emergency. My family rushed me to Hospital Name's emergency department. Within minutes, the medical team was evaluating me. The doctors diagnosed the condition and administered appropriate treatment within the critical time window. I was then transferred to the specialized unit for care. The rehabilitation was intensive and comprehensive. I have made a remarkable recovery. The hospital's emergency response and medical expertise saved my life."</p>
+          <div class="testimonial-meta">
+            <div class="testimonial-author">
+              <strong>Abdul Rahman</strong>
+              <span>Stroke Survivor</span>
+            </div>
+            <div class="testimonial-service">
+              <span>STROKE CARE & NEUROLOGY</span>
+              <span>Jalalabad City</span>
+            </div>
+          </div>
+          <div class="testimonial-date">August 14, 2023</div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" data-category="pediatrics">
+        <div class="testimonial-image">
+          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=150&h=150" alt="Nasrin Ahmadi" />
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-stars">★★★★★</div>
+          <h4>Childhood Cancer Journey</h4>
+          <p>"When my 6-year-old daughter was diagnosed with leukemia, our world shattered. Dr. Karima Karimi and the pediatric oncology team provided compassionate, expert care throughout her treatment. The chemotherapy was administered with precision, and the side effects were managed effectively. The hospital's child-friendly environment made the difficult process easier for our daughter. The psychosocial support for the entire family was outstanding. Two years later, she is in remission and thriving. The team's dedication, medical expertise, and genuine care made this challenging journey manageable. We are forever grateful."</p>
+          <div class="testimonial-meta">
+            <div class="testimonial-author">
+              <strong>Nasrin Ahmadi</strong>
+              <span>Mother of Cancer Survivor</span>
+            </div>
+            <div class="testimonial-service">
+              <span>PEDIATRIC ONCOLOGY</span>
+              <span>Ghazni Province</span>
+            </div>
+          </div>
+          <div class="testimonial-date">July 30, 2023</div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" data-category="cardiology">
+        <div class="testimonial-image">
+          <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&q=80&w=150&h=150" alt="Mohammad Gul" />
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-stars">★★★★★</div>
+          <h4>Pacemaker Life-Saver</h4>
+          <p>"I was diagnosed with a cardiac condition that required device implantation. The cardiac electrophysiology team performed the implantation procedure with exceptional skill. The surgery was minimally invasive, and recovery was smooth. The cardiac device clinic provides regular monitoring and adjustments. The cardiac care department is world-class. The team's expertise and follow-up care have given me peace of mind and a normal life."</p>
+          <div class="testimonial-meta">
+            <div class="testimonial-author">
+              <strong>Mohammad Gul</strong>
+              <span>Pacemaker Patient</span>
+            </div>
+            <div class="testimonial-service">
+              <span>CARDIAC ELECTROPHYSIOLOGY</span>
+              <span>Balkh Province</span>
+            </div>
+          </div>
+          <div class="testimonial-date">June 12, 2023</div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" data-category="surgery">
+        <div class="testimonial-image">
+          <img src="https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&q=80&w=150&h=150" alt="Laila Noori" />
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-stars">★★★★★</div>
+          <h4>Cosmetic Surgery Transformation</h4>
+          <p>"After years of self-consciousness about my facial scars from an accident, I decided to undergo reconstructive surgery. Dr. Basir Ahmad performed complex facial reconstruction using microvascular techniques. The results exceeded my expectations - my scars are barely visible, and my confidence has been restored. The pre-operative consultations were thorough, and the post-operative care was exceptional. The hospital's plastic surgery department uses the latest techniques and technology. Dr. Ahmad's artistic skill and surgical precision are remarkable. I am thrilled with my transformation and grateful for the compassionate care I received."</p>
+          <div class="testimonial-meta">
+            <div class="testimonial-author">
+              <strong>Laila Noori</strong>
+              <span>Facial Reconstruction Patient</span>
+            </div>
+            <div class="testimonial-service">
+              <span>PLASTIC & RECONSTRUCTIVE SURGERY</span>
+              <span>Kunduz Province</span>
+            </div>
+          </div>
+          <div class="testimonial-date">May 25, 2023</div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" data-category="maternity">
+        <div class="testimonial-image">
+          <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&q=80&w=150&h=150" alt="Razia Sultani" />
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-stars">★★★★★</div>
+          <h4>High-Risk Twin Pregnancy Success</h4>
+          <p>"My twin pregnancy was complicated by preeclampsia and gestational diabetes. The maternal-fetal medicine team provided exceptional care throughout. They monitored the babies' growth closely and managed my conditions effectively. The delivery was planned and executed perfectly, resulting in healthy babies born at 36 weeks. The neonatal care was outstanding, and both babies thrived. The hospital's high-risk pregnancy program and medical expertise gave me confidence during a stressful time. Our family is complete and healthy thanks to the wonderful care."</p>
+          <div class="testimonial-meta">
+            <div class="testimonial-author">
+              <strong>Razia Sultani</strong>
+              <span>Mother of Twins</span>
+            </div>
+            <div class="testimonial-service">
+              <span>HIGH-RISK MATERNITY CARE</span>
+              <span>Badakhshan Province</span>
+            </div>
+          </div>
+          <div class="testimonial-date">April 8, 2023</div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" data-category="emergency">
+        <div class="testimonial-image">
+          <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&q=80&w=150&h=150" alt="Jamal Khan" />
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-stars">★★★★★</div>
+          <h4>Emergency Neurosurgery</h4>
+          <p>"I suffered a severe head injury in a workplace accident and was brought to Hospital Name unconscious. The neurosurgery team performed emergency craniotomy to relieve pressure on my brain. The team worked tirelessly to save my life. I was in a coma for two weeks, but the intensive care was exceptional. The rehabilitation process was comprehensive, involving physical, occupational, and speech therapy. Eight months later, I have made a remarkable recovery and returned to work. The hospital's trauma center and surgical expertise are truly life-saving. I am deeply grateful to the entire team."</p>
+          <div class="testimonial-meta">
+            <div class="testimonial-author">
+              <strong>Jamal Khan</strong>
+              <span>Traumatic Brain Injury Survivor</span>
+            </div>
+            <div class="testimonial-service">
+              <span>EMERGENCY NEUROSURGERY</span>
+              <span>Takhar Province</span>
+            </div>
+          </div>
+          <div class="testimonial-date">March 17, 2023</div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" data-category="pediatrics">
+        <div class="testimonial-image">
+          <img src="https://images.unsplash.com/photo-1541101767792-f9b2b1c4f127?auto=format&fit=crop&q=80&w=150&h=150" alt="Parwana Ahmadi" />
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-stars">★★★★★</div>
+          <h4>Pediatric Cardiac Intervention</h4>
+          <p>"My newborn son was diagnosed with a critical congenital heart defect. Dr. Zahra Ahmed performed a complex cardiac catheterization procedure to place a stent and repair the defect. The procedure was successful, avoiding open-heart surgery. The pediatric cardiology team provided comprehensive care, and the cardiac ICU was equipped with the latest monitoring technology. Six months later, my son is thriving and developing normally. The hospital's pediatric cardiac program is world-class. Dr. Ahmed's skill and the team's dedication gave our baby a chance at a healthy life. We are eternally thankful."</p>
+          <div class="testimonial-meta">
+            <div class="testimonial-author">
+              <strong>Parwana Ahmadi</strong>
+              <span>Mother of Cardiac Patient</span>
+            </div>
+            <div class="testimonial-service">
+              <span>PEDIATRIC CARDIOLOGY</span>
+              <span>Paktia Province</span>
+            </div>
+          </div>
+          <div class="testimonial-date">February 3, 2023</div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" data-category="cardiology">
+        <div class="testimonial-image">
+          <img src="https://images.unsplash.com/photo-1507591064344-4c6ce005b128?auto=format&fit=crop&q=80&w=150&h=150" alt="Sayed Karim" />
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-stars">★★★★★</div>
+          <h4>Cardiac Rehabilitation Success</h4>
+          <p>"After my cardiac surgery, I participated in the hospital's cardiac rehabilitation program. The personalized exercise regimen, nutritional counseling, and stress management techniques helped me regain strength and confidence. The rehabilitation center is well-equipped, and the multidisciplinary team provided comprehensive support. The cardiac rehab program is exceptional and life-changing."</p>
+          <div class="testimonial-meta">
+            <div class="testimonial-author">
+              <strong>Sayed Karim</strong>
+              <span>Cardiac Surgery Patient</span>
+            </div>
+            <div class="testimonial-service">
+              <span>CARDIAC REHABILITATION</span>
+              <span>Logar Province</span>
+            </div>
+          </div>
+          <div class="testimonial-date">January 15, 2023</div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" data-category="surgery">
+        <div class="testimonial-image">
+          <img src="https://images.unsplash.com/photo-1531384441138-2736e62e0919?auto=format&fit=crop&q=80&w=150&h=150" alt="Nadia Mohammadi" />
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-stars">★★★★★</div>
+          <h4>Urology Excellence</h4>
+          <p>"I suffered from kidney stones for years, experiencing excruciating pain and recurrent infections. Dr. Asma Bibi performed minimally invasive laser lithotripsy to remove the stones. The procedure was successful, and I was stone-free after one treatment. The urology department's technology is advanced, and the care was compassionate. The follow-up care ensured no recurrence, and I received dietary counseling to prevent future stones. Dr. Bibi's expertise and the hospital's urological services are outstanding. I can now live without the constant fear of kidney stone attacks. Highly recommended!"</p>
+          <div class="testimonial-meta">
+            <div class="testimonial-author">
+              <strong>Nadia Mohammadi</strong>
+              <span>Kidney Stone Patient</span>
+            </div>
+            <div class="testimonial-service">
+              <span>UROLOGY & KIDNEY STONE TREATMENT</span>
+              <span>Khost Province</span>
+            </div>
+          </div>
+          <div class="testimonial-date">December 28, 2022</div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" data-category="maternity">
+        <div class="testimonial-image">
+          <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&q=80&w=150&h=150" alt="Zubaida Hassan" />
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-stars">★★★★★</div>
+          <h4>Midwifery Care Excellence</h4>
+          <p>"As a mother, I wanted a natural birth experience for my child. The midwifery team provided exceptional continuity of care throughout my pregnancy. Their holistic approach, including prenatal education, birth planning, and emotional support, was invaluable. The birth center offered a calm, home-like environment for labor. My delivery was unmedicated and empowering. The postpartum care, including breastfeeding support and newborn care education, was comprehensive. The midwifery care was the best decision for our family."</p>
+          <div class="testimonial-meta">
+            <div class="testimonial-author">
+              <strong>Zubaida Hassan</strong>
+              <span>Mother of Five</span>
+            </div>
+            <div class="testimonial-service">
+              <span>MIDWIFERY & NATURAL BIRTH</span>
+              <span>Paktika Province</span>
+            </div>
+          </div>
+          <div class="testimonial-date">November 20, 2022</div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" data-category="emergency">
+        <div class="testimonial-image">
+          <img src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?auto=format&fit=crop&q=80&w=150&h=150" alt="Farid Ahmadi" />
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-stars">★★★★★</div>
+          <h4>Complex Trauma Surgery</h4>
+          <p>"I was involved in a multi-vehicle accident with severe abdominal trauma, multiple fractures, and internal injuries. The trauma team, led by Dr. Rashid Khan, performed life-saving surgery to repair my liver laceration, splenic rupture, and orthopedic injuries. The level 1 trauma center's efficiency was remarkable - from ambulance arrival to surgery took less than 30 minutes. The intensive care unit provided round-the-clock monitoring, and the rehabilitation was comprehensive. Six months later, I have recovered fully and returned to my normal life. The hospital's trauma system and surgical expertise are world-class."</p>
+          <div class="testimonial-meta">
+            <div class="testimonial-author">
+              <strong>Farid Ahmadi</strong>
+              <span>Polytrauma Patient</span>
+            </div>
+            <div class="testimonial-service">
+              <span>TRAUMA SURGERY & CRITICAL CARE</span>
+              <span>Uruzgan Province</span>
+            </div>
+          </div>
+          <div class="testimonial-date">October 12, 2022</div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" data-category="pediatrics">
+        <div class="testimonial-image">
+          <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&q=80&w=150&h=150" alt="Samira Karimi" />
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-stars">★★★★★</div>
+          <h4>Pediatric Epilepsy Management</h4>
+          <p>"My 8-year-old daughter was diagnosed with epilepsy after experiencing multiple seizures. Dr. Ahmed Hassan conducted comprehensive neurological evaluation and EEG testing. He prescribed appropriate anti-seizure medication and provided detailed counseling about seizure management. The pediatric neurology clinic offers excellent follow-up care, and the staff is knowledgeable about childhood epilepsy. Two years later, my daughter is seizure-free and thriving in school. The psychological support provided to our family was invaluable. Dr. Hassan's expertise and compassionate care have given us peace of mind and a normal life for our daughter."</p>
+          <div class="testimonial-meta">
+            <div class="testimonial-author">
+              <strong>Samira Karimi</strong>
+              <span>Mother of Epilepsy Patient</span>
+            </div>
+            <div class="testimonial-service">
+              <span>PEDIATRIC NEUROLOGY</span>
+              <span>Daikundi Province</span>
+            </div>
+          </div>
+          <div class="testimonial-date">September 5, 2022</div>
         </div>
       </article>
     </div>
+
     <div class="testimonials-cta">
-      <a href="https://maps.google.com/" class="btn btn-secondary">READ MORE VERIFIED REVIEWS ON GOOGLE MAPS</a>
+      <h3>Join Thousands of Satisfied Patients</h3>
+      <p>Experience the difference - where exceptional medical care meets compassionate service.</p>
+      <div class="cta-buttons">
+        <a href="#booking" class="btn btn-primary btn-large">BOOK YOUR APPOINTMENT</a>
+        <a href="https://maps.google.com/" class="btn btn-secondary btn-large">READ MORE REVIEWS</a>
+      </div>
     </div>
   </div>
 </section>

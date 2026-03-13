@@ -1,77 +1,251 @@
 <section class="section services" id="services">
   <div class="container">
-    <h2>OUR MEDICAL SERVICES</h2>
-    <p>Comprehensive Healthcare In One Place</p>
-    <p>Madani Hospital in Nimroz provides comprehensive healthcare services, from emergency care to complete medical treatment, using modern medical technology and experienced specialists.</p>
+    <div class="services-header">
+      <h2>OUR MEDICAL SERVICES</h2>
+      <p>Comprehensive Healthcare In One Place</p>
+      <p>Hospital Name provides comprehensive healthcare services, from emergency care to complete medical treatment, using modern medical technology and experienced specialists. Our integrated approach ensures that all your healthcare needs are met under one roof.</p>
+    </div>
+
+    <!-- Service Categories -->
+    <div class="service-categories">
+      <button class="category-btn active" data-category="all">All Services</button>
+      <button class="category-btn" data-category="emergency">Emergency Care</button>
+      <button class="category-btn" data-category="surgery">Surgical Services</button>
+      <button class="category-btn" data-category="maternity">Maternity & Pediatrics</button>
+      <button class="category-btn" data-category="cardiology">Cardiology</button>
+      <button class="category-btn" data-category="diagnostics">Diagnostics</button>
+    </div>
+
     <div class="grid services-grid">
-      <article class="service-card">
-        <div class="service-icon">🧬</div>
-        <h3>Infertility Diagnosis & Treatment</h3>
-        <p>Specialized diagnostic and treatment services for couples facing infertility.</p>
+      <!-- Emergency & Critical Care -->
+      <article class="service-card" data-category="emergency">
+        <div class="service-image">
+          <img src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?q=80&w=400&auto=format&fit=crop" alt="Emergency Department" />
+        </div>
+        <div class="service-icon">🚑</div>
+        <h3>24/7 Emergency Care</h3>
+        <p>Immediate medical assistance for life-threatening conditions. Our emergency department is equipped with advanced life support systems and operates round-the-clock.</p>
+        <ul class="service-features">
+          <li>Advanced Life Support</li>
+          <li>Trauma Care</li>
+          <li>Critical Care Unit</li>
+        </ul>
       </article>
-      <article class="service-card">
+
+      <article class="service-card" data-category="cardiology">
+        <div class="service-image">
+          <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?q=80&w=400&auto=format&fit=crop" alt="Cardiology Department" />
+        </div>
         <div class="service-icon">🫀</div>
         <h3>Cardiology Department</h3>
-        <p>A fully equipped center for diagnosis and treatment of heart diseases managed by specialist doctors.</p>
+        <p>A fully equipped center for diagnosis and treatment of heart diseases managed by specialist cardiologists. We offer comprehensive cardiac care from prevention to intervention.</p>
+        <ul class="service-features">
+          <li>ECG & Echocardiography</li>
+          <li>Cardiac Catheterization</li>
+          <li>Heart Disease Prevention</li>
+        </ul>
       </article>
-      <article class="service-card">
+
+      <!-- Maternity Services -->
+      <article class="service-card" data-category="maternity">
+        <div class="service-image">
+          <img src="https://images.unsplash.com/photo-1559839734-2b71f1536783?q=80&w=400&auto=format&fit=crop" alt="Maternity Department" />
+        </div>
         <div class="service-icon">🤱</div>
         <h3>Maternity Department</h3>
-        <p>A modern maternity center supervised by gynecology and obstetrics specialists.</p>
+        <p>A modern maternity center supervised by gynecology and obstetrics specialists. We provide comprehensive care for expectant mothers and their newborns.</p>
+        <ul class="service-features">
+          <li>Prenatal Care</li>
+          <li>Normal & C-Section Delivery</li>
+          <li>Postnatal Care</li>
+        </ul>
       </article>
-      <article class="service-card">
+
+      <article class="service-card" data-category="diagnostics">
+        <div class="service-image">
+          <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?q=80&w=400&auto=format&fit=crop" alt="4D Ultrasound" />
+        </div>
         <div class="service-icon">📡</div>
         <h3>4D Ultrasound</h3>
-        <p>Accurate and reliable imaging services using advanced 4D ultrasound technology.</p>
+        <p>Accurate and reliable imaging services using advanced 4D ultrasound technology. Our state-of-the-art equipment provides detailed prenatal imaging and diagnostic capabilities.</p>
+        <ul class="service-features">
+          <li>4D Prenatal Imaging</li>
+          <li>Abdominal Ultrasound</li>
+          <li>Gynecological Scans</li>
+        </ul>
       </article>
-      <article class="service-card">
+
+      <!-- Pediatric Services -->
+      <article class="service-card" data-category="maternity">
+        <div class="service-image">
+          <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?q=80&w=400&auto=format&fit=crop" alt="Pediatric Care" />
+        </div>
         <div class="service-icon">👶</div>
         <h3>Pediatric Internal Medicine</h3>
-        <p>Specialized medical care and treatment for newborns and children.</p>
+        <p>Specialized medical care and treatment for newborns and children. Our pediatric specialists provide comprehensive healthcare for infants, children, and adolescents.</p>
+        <ul class="service-features">
+          <li>Newborn Care</li>
+          <li>Childhood Vaccinations</li>
+          <li>Growth Monitoring</li>
+        </ul>
       </article>
-      <article class="service-card">
+
+      <article class="service-card" data-category="emergency">
         <div class="service-icon">🩺</div>
         <h3>General Internal Medicine</h3>
-        <p>Diagnosis and management of acute and chronic diseases in adults by experienced physicians.</p>
+        <p>Diagnosis and management of acute and chronic diseases in adults by experienced physicians. We provide comprehensive primary care and disease management.</p>
+        <ul class="service-features">
+          <li>Chronic Disease Management</li>
+          <li>Preventive Care</li>
+          <li>Health Screenings</li>
+        </ul>
       </article>
-      <article class="service-card">
+
+      <!-- Surgical Services -->
+      <article class="service-card" data-category="surgery">
+        <div class="service-image">
+          <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=400&auto=format&fit=crop" alt="General Surgery" />
+        </div>
         <div class="service-icon">🏥</div>
         <h3>General Surgery</h3>
-        <p>Equipped operating rooms and emergency surgical services for various procedures.</p>
+        <p>Equipped operating rooms and emergency surgical services for various procedures. Our surgical team performs both elective and emergency surgeries with precision.</p>
+        <ul class="service-features">
+          <li>Minimally Invasive Surgery</li>
+          <li>Emergency Surgery</li>
+          <li>Post-Operative Care</li>
+        </ul>
       </article>
-      <article class="service-card">
+
+      <article class="service-card" data-category="surgery maternity">
         <div class="service-icon">🧸</div>
         <h3>Pediatric Surgery</h3>
-        <p>Specialized surgical services for various conditions in infants and children.</p>
+        <p>Specialized surgical services for various conditions in infants and children. Our pediatric surgeons are trained in the latest minimally invasive techniques.</p>
+        <ul class="service-features">
+          <li>Neonatal Surgery</li>
+          <li>Minimally Invasive Procedures</li>
+          <li>Pediatric Anesthesia</li>
+        </ul>
       </article>
-      <article class="service-card">
+
+      <!-- Infertility Services -->
+      <article class="service-card" data-category="diagnostics">
+        <div class="service-image">
+          <img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?q=80&w=400&auto=format&fit=crop" alt="Infertility Treatment" />
+        </div>
+        <div class="service-icon">🧬</div>
+        <h3>Infertility Diagnosis & Treatment</h3>
+        <p>Specialized diagnostic and treatment services for couples facing infertility. We offer comprehensive fertility evaluation and assisted reproductive technologies.</p>
+        <ul class="service-features">
+          <li>Fertility Evaluation</li>
+          <li>Hormone Testing</li>
+          <li>Counseling Services</li>
+        </ul>
+      </article>
+
+      <!-- Laboratory & Pharmacy -->
+      <article class="service-card" data-category="diagnostics">
         <div class="service-icon">🔬</div>
         <h3>Diagnostic Laboratory</h3>
-        <p>24-hour laboratory testing services using modern automated systems.</p>
+        <p>24-hour laboratory testing services using modern automated systems. Our lab provides accurate and timely diagnostic testing for all medical conditions.</p>
+        <ul class="service-features">
+          <li>24/7 Operation</li>
+          <li>Automated Testing</li>
+          <li>Quick Results</li>
+        </ul>
       </article>
-      <article class="service-card">
+
+      <article class="service-card" data-category="emergency">
         <div class="service-icon">💊</div>
         <h3>Modern Pharmacy</h3>
-        <p>Continuous availability of high-quality medicines for patients.</p>
+        <p>Continuous availability of high-quality medicines for patients. Our pharmacy stocks a comprehensive range of medications and provides expert pharmaceutical care.</p>
+        <ul class="service-features">
+          <li>24/7 Service</li>
+          <li>Quality Medications</li>
+          <li>Pharmaceutical Counseling</li>
+        </ul>
       </article>
-      <article class="service-card">
+
+      <!-- Inpatient Services -->
+      <article class="service-card" data-category="emergency">
+        <div class="service-image">
+          <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400&auto=format&fit=crop" alt="Patient Ward" />
+        </div>
         <div class="service-icon">🛌</div>
         <h3>20-Bed Ward</h3>
-        <p>Modern patient rooms designed for comfort and proper medical care.</p>
+        <p>Modern patient rooms designed for comfort and proper medical care. Our inpatient facilities provide a healing environment with 24/7 nursing care.</p>
+        <ul class="service-features">
+          <li>Private & Semi-Private Rooms</li>
+          <li>24/7 Nursing Care</li>
+          <li>Modern Amenities</li>
+        </ul>
       </article>
-      <article class="service-card">
-        <div class="service-icon">🚑</div>
-        <h3>Emergency Care</h3>
-        <p>24/7 readiness for emergency medical assistance and urgent surgeries.</p>
+
+      <!-- Additional Services -->
+      <article class="service-card" data-category="diagnostics">
+        <div class="service-icon">🦷</div>
+        <h3>Dental Care</h3>
+        <p>Comprehensive dental services including preventive care, restorative dentistry, and oral surgery. Our dental department provides complete oral healthcare.</p>
+        <ul class="service-features">
+          <li>Preventive Dentistry</li>
+          <li>Restorative Procedures</li>
+          <li>Oral Surgery</li>
+        </ul>
+      </article>
+
+      <article class="service-card" data-category="diagnostics">
+        <div class="service-icon">👁️</div>
+        <h3>Ophthalmology</h3>
+        <p>Complete eye care services from routine eye exams to advanced surgical procedures. Our ophthalmologists provide comprehensive vision care.</p>
+        <ul class="service-features">
+          <li>Comprehensive Eye Exams</li>
+          <li>Cataract Surgery</li>
+          <li>Glaucoma Treatment</li>
+        </ul>
+      </article>
+
+      <article class="service-card" data-category="diagnostics">
+        <div class="service-icon">🦴</div>
+        <h3>Orthopedics</h3>
+        <p>Specialized care for musculoskeletal conditions including fractures, joint problems, and sports injuries. We offer both surgical and non-surgical treatments.</p>
+        <ul class="service-features">
+          <li>Fracture Care</li>
+          <li>Joint Replacement</li>
+          <li>Sports Medicine</li>
+        </ul>
+      </article>
+
+      <article class="service-card" data-category="diagnostics">
+        <div class="service-icon">🧠</div>
+        <h3>Neurology</h3>
+        <p>Diagnosis and treatment of neurological disorders including stroke, epilepsy, and neurodegenerative diseases. Our neurologists provide comprehensive brain care.</p>
+        <ul class="service-features">
+          <li>Stroke Care</li>
+          <li>Epilepsy Management</li>
+          <li>Neurodegenerative Diseases</li>
+        </ul>
       </article>
     </div>
+
     <div class="services-priority">
       <h3>Your Health Is Our Priority</h3>
-      <p>Our diagnostic laboratory and pharmacy operate 24/7 to provide continuous medical services.</p>
+      <p>Our diagnostic laboratory and pharmacy operate 24/7 to provide continuous medical services. We are committed to delivering the highest quality healthcare with compassion and excellence.</p>
       <div class="priority-stats">
-        <span>24/7 EMERGENCY SERVICES</span>
-        <span>100% ACCURATE DIAGNOSIS</span>
-        <span>EXPERT MEDICAL TEAM</span>
+        <div class="stat-item">
+          <span class="stat-number">24/7</span>
+          <span class="stat-label">EMERGENCY SERVICES</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">ACCURATE DIAGNOSIS</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">15+</span>
+          <span class="stat-label">SPECIALIZED SERVICES</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">9</span>
+          <span class="stat-label">EXPERT DOCTORS</span>
+        </div>
       </div>
     </div>
   </div>
