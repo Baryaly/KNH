@@ -10,7 +10,7 @@ const PARTIALS = {
   about: "partials/about.html",
   services: "partials/services.html",
   team: "partials/team.html",
-  faq: "partials/faq.html",
+  testimonials: "partials/testimonials.html",
   contact: "partials/contact.html",
   footer: "partials/footer.html",
 };
@@ -80,4 +80,29 @@ window.addEventListener("DOMContentLoaded", async () => {
       if (answer) answer.hidden = expanded;
     });
   });
+
+  // Team filtering
+  const filterButtons = document.querySelectorAll(".filter-btn");
+  const teamCards = document.querySelectorAll(".team-card");
+
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const filter = button.getAttribute("data-filter");
+
+      // Update active button
+      filterButtons.forEach((btn) => btn.classList.remove("active"));
+      button.classList.add("active");
+
+      // Filter cards
+      teamCards.forEach((card) => {
+        const specialty = card.getAttribute("data-specialty");
+        if (filter === "all" || specialty === filter) {
+          card.style.display = "block";
+        } else {
+          card.style.display = "none";
+        }
+      });
+    });
+  });
+});
 });

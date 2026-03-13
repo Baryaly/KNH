@@ -1,19 +1,77 @@
 <section class="section team" id="team">
   <div class="container">
-    <h2>Our Care Team</h2>
-    <p>Our multidisciplinary team includes experienced physicians, nurses, and support staff focused on your wellness.</p>
-    <div class="grid services-grid">
-      <article class="service-card">
-        <h3>Dr. Jane Smith</h3>
-        <p>Chief of Medicine with 20+ years of clinical leadership in patient care.</p>
+    <h2>Meet Our Specialists</h2>
+    <p>Expert medical professionals dedicated to your health.</p>
+    <div class="team-filters">
+      <button class="filter-btn active" data-filter="all">ALL DOCTORS</button>
+      <button class="filter-btn" data-filter="surgery">SURGERY</button>
+      <button class="filter-btn" data-filter="pediatrics">PEDIATRICS</button>
+      <button class="filter-btn" data-filter="maternity">MATERNITY</button>
+      <button class="filter-btn" data-filter="diagnostics">DIAGNOSTICS</button>
+    </div>
+    <div class="grid team-grid">
+      <article class="team-card" data-specialty="surgery">
+        <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Munawar Ahmad" />
+        <h3>Dr. Munawar Ahmad</h3>
+        <p class="specialty">GENERAL SURGEON</p>
+        <p>A leading specialist in advanced laparoscopic and minimally invasive surgery. With over 15 years of experience, he focuses on complex abdominal procedures and emergency trauma management.</p>
+        <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
       </article>
-      <article class="service-card">
-        <h3>Dr. Amir Khan</h3>
-        <p>Cardiology specialist with a passion for minimally invasive treatments.</p>
+      <article class="team-card" data-specialty="pediatrics">
+        <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Samim Noori" />
+        <h3>Dr. Samim Noori</h3>
+        <p class="specialty">PEDIATRIC SPECIALIST</p>
+        <p>Expert in neonatal intensive care. Dr. Samim provides comprehensive medical care for infants, specializing in respiratory infections and nutritional guidance for long-term child wellness.</p>
+        <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
       </article>
-      <article class="service-card">
-        <h3>Nurse Manager Laura</h3>
-        <p>Dedicated patient advocate who leads our nursing team with compassion.</p>
+      <article class="team-card" data-specialty="maternity">
+        <img src="https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Malalai Herawi" />
+        <h3>Dr. Malalai Herawi</h3>
+        <p class="specialty">GYNECOLOGIST</p>
+        <p>Specializing in high-risk obstetrics and maternal-fetal medicine. She is dedicated to providing a safe environment for mothers, focusing on painless delivery and advanced screenings.</p>
+        <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+      </article>
+      <article class="team-card" data-specialty="surgery">
+        <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Ahmad Fayez" />
+        <h3>Dr. Ahmad Fayez</h3>
+        <p class="specialty">ORTHOPEDIC SURGEON</p>
+        <p>Specialist in bone trauma and joint replacement. He utilizes advanced surgical techniques for fracture repair, ensuring patients regain full mobility with rapid recovery timelines.</p>
+        <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+      </article>
+      <article class="team-card" data-specialty="diagnostics">
+        <img src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Walid Ahmad" />
+        <h3>Dr. Walid Ahmad</h3>
+        <p class="specialty">RADIOLOGIST</p>
+        <p>Highly skilled in diagnostic imaging. He leads our 4D Ultrasound and CT scan department, providing precise diagnostic blueprints essential for successful medical treatments.</p>
+        <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+      </article>
+      <article class="team-card" data-specialty="pediatrics">
+        <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Karima Karimi" />
+        <h3>Dr. Karima Karimi</h3>
+        <p class="specialty">PEDIATRICIAN</p>
+        <p>Focused on preventive pediatric medicine and immunization. She is known for her dedicated approach to managing chronic childhood conditions like asthma and allergies.</p>
+        <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+      </article>
+      <article class="team-card" data-specialty="surgery">
+        <img src="https://images.unsplash.com/photo-1625498542602-6bfb30f39b3f?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Khalid Noori" />
+        <h3>Dr. Khalid Noori</h3>
+        <p class="specialty">INTERNAL MEDICINE</p>
+        <p>Specialist in managing complex adult illnesses, including diabetes and hypertension. He employs a holistic diagnostic approach to treat multi-system chronic diseases.</p>
+        <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+      </article>
+      <article class="team-card" data-specialty="diagnostics">
+        <img src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Sayed Sadat" />
+        <h3>Dr. Sayed Sadat</h3>
+        <p class="specialty">PATHOLOGIST</p>
+        <p>Chief of Laboratory services, specializing in clinical pathology. He ensures the highest standards of accuracy in blood testing, the backbone of our hospital's reliability.</p>
+        <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
+      </article>
+      <article class="team-card" data-specialty="diagnostics">
+        <img src="https://images.unsplash.com/photo-1622902046580-2b47f47f0871?auto=format&fit=crop&q=80&w=800&h=1000" alt="Dr. Rahimi" />
+        <h3>Dr. Rahimi</h3>
+        <p class="specialty">CARDIOLOGIST</p>
+        <p>Expert in non-invasive cardiology and preventive heart care. He utilizes advanced ECG and Echo technology to diagnose and manage coronary artery disease and heart failure.</p>
+        <a href="#booking" class="btn btn-primary">BOOK APPOINTMENT →</a>
       </article>
     </div>
   </div>
