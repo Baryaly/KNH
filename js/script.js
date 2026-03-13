@@ -105,4 +105,3 @@ window.addEventListener("DOMContentLoaded", async () => {
     });
   });
 });
-});
